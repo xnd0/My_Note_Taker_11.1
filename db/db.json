@@ -1,6 +1,15 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Test Title",
+        "text": "Test text"
+    },
+    {
+        "tip_id": "fad60b8c-ca46-46a7-ac45-ab3f0e97c875"
+    },
+    {
+        "tip_id": "eece6c32-f6b5-402d-95c0-8b43cbfd46f1"
+    },
+    {
+        "tip_id": "a3947d15-d9ee-41d5-b0c6-5f85cc032c5f"
     }
 ]
