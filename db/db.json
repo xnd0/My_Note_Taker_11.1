@@ -4,18 +4,6 @@
         "text": "Test text"
     },
     {
-        "tip_id": "fad60b8c-ca46-46a7-ac45-ab3f0e97c875"
-    },
-    {
-        "tip_id": "eece6c32-f6b5-402d-95c0-8b43cbfd46f1"
-    },
-    {
-        "tip_id": "a3947d15-d9ee-41d5-b0c6-5f85cc032c5f"
-    },
-    {
-        "tip_id": "d9484731-3d16-4ab1-a2a6-5005da1fe8ae"
-    },
-    {
         "title": "asdasd",
         "text": "asdasdas",
         "tip_id": "8a212565-cf7a-411e-aba7-2c696e4c28eb"
@@ -34,5 +22,15 @@
         "title": "123",
         "text": "456",
         "tip_id": "8a9e1f1f-cf38-47fe-9b4e-020f5ee134fc"
+    },
+    {
+        "title": "5555",
+        "text": "66666",
+        "id": "df230f1a-24e6-4057-98e8-e4701cf38480"
+    },
+    {
+        "title": "abc",
+        "text": "def",
+        "id": "f9b60d6d-7496-4ac2-b6ff-cb4a6c1dcde1"
     }
 ]
