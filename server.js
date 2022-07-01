@@ -13,7 +13,6 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 
-
 // Import custom middleware, "cLog"
 app.use(clog);
 
@@ -24,23 +23,25 @@ app.use('/api', api);
 
 app.use(express.static('public'));
 
+
 // GET Route for homepage (index.html)
 app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
+    res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
 
 // GET Route for notes.html page
 app.get('/notes', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/notes.html'))
+    res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
 
 // Wildcard route to direct users back to homepage
 app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, 'public/index.html'))
+    res.sendFile(path.join(__dirname, 'public/index.html'))
 );
 
+// Spin up the server
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
+    console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
