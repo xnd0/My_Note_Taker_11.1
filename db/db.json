@@ -1,36 +1,12 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
+        "title": "ABC",
+        "text": "defghijk",
+        "id": "b67220ab-663d-49ae-8e0a-62aa61b9e0ee"
     },
     {
-        "title": "asdasd",
-        "text": "asdasdas",
-        "tip_id": "8a212565-cf7a-411e-aba7-2c696e4c28eb"
-    },
-    {
-        "title": "afaef",
-        "text": "efeffff",
-        "tip_id": "5d60e18d-4ec9-4a3b-9985-99e05176573e"
-    },
-    {
-        "title": "title",
-        "text": "text",
-        "tip_id": "1cc59a54-fd1b-4747-9339-102f1cc432d8"
-    },
-    {
-        "title": "123",
-        "text": "456",
-        "tip_id": "8a9e1f1f-cf38-47fe-9b4e-020f5ee134fc"
-    },
-    {
-        "title": "5555",
-        "text": "66666",
-        "id": "df230f1a-24e6-4057-98e8-e4701cf38480"
-    },
-    {
-        "title": "abc",
-        "text": "def",
-        "id": "f9b60d6d-7496-4ac2-b6ff-cb4a6c1dcde1"
+        "title": "Note_One",
+        "text": "This is example text - Remember this note!",
+        "id": "8194e591-1d99-4bd3-8aac-26ecb9d30b55"
     }
 ]
