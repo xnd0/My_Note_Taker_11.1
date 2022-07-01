@@ -21,20 +21,19 @@ notes.get('/', (req, res) => {
 notes.post('/', (req, res) => {
     console.log(req.body);
   
-    const { username, topic, tip } = req.body;
+    const { title, text } = req.body;
   
     if (req.body) {
-      const newTip = {
-        username,
-        tip,
-        topic,
+      const newNote = {
+        title, 
+        text,
         tip_id: uuidv4(),
       };
   
-      readAndAppend(newTip, './db/db.json');
-      res.json(`Tip added successfully 🚀`);
+      readAndAppend(newNote, './db/db.json');
+      res.json(`Your newNote was added successfully! 🚀`);
     } else {
-      res.error('Error in adding tip');
+      res.error('Error in adding the newNote');
     }
   });
 
